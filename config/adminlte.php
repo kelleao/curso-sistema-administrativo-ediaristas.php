@@ -304,7 +304,7 @@ return [
                     'text' => 'Novo Serviço',
                     'route'  => 'servicos.create',
                     'icon'    => 'fas fa-fw fa-file',
-                ],        
+                ],
             ],
         ],
 
@@ -321,9 +321,16 @@ return [
                     'text' => 'Novo Usuário',
                     'route'  => 'usuarios.create',
                     'icon'    => 'fas fa-fw fa-file',
-                ],        
+                ],
             ],
         ],
+        [
+            'text' => 'Lista de diárias',
+            'icon' => 'fas fa-fw fa-clipboard-list',
+            'route' => 'diarias.index'
+
+        ],
+
     ],
 
     /*
